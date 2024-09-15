@@ -1,0 +1,68 @@
+<!Doctype html>
+    <head>
+        <title>Demo HTML</title>
+        <link href="tables.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>This is a demo HTML File</h1>
+        <p>This is a paragraph</p>
+        <br/>
+        <hr/>
+        <!-- comments -->
+        <table border="1">
+            <caption>HTML Table</caption>
+            <colgroup>
+                <col style="background-color: beige;"/>
+                <col style="background-color: rgb(251, 251, 7);" span="4"/>
+            </colgroup>
+            <thead style="background-color: black; color:white">
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>9:00</th>
+                    <td colspan="2">Prog1</td>
+                    <td colspan="3">Prog2</td>
+                </tr>
+                <tr>
+                    <th>10:00</th>
+                    <td colspan="5"  style="background-color: aqua;">Prog1</td>
+                </tr>
+                <tr>
+                    <th>11:00</th>
+                    <td rowspan="2" style="background-color: blueviolet; color:white">Prog1</td>
+                    <td>Prog4</td>
+                    <td rowspan="2">Prog1</td>
+                    <td>Prog4</td>
+                    <td rowspan="2">Prog1</td>
+                </tr>
+                <tr>
+                    <th>12:00</th>
+                    <td>Prog3</td>
+                    <td>Prog3</td>
+                </tr>
+                <tr>
+                    <th>1:00</th>
+                    <td>Prog3</td>
+                    <td>Prog3</td>
+                    <td>Prog3</td>
+                    <td>Prog3</td>
+                    <td>Prog3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">This is the end part</td>
+                </tr>
+            </tfoot>
+            
+        </table>
+    </body>
+<html>

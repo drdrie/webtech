@@ -1,0 +1,58 @@
+<!Doctype html>
+<html>
+    <head>
+        <style>
+            form {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+        </style>
+    </head>
+    <body>
+        <form action="" method="">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First name: </label>
+                <input type="text" id="" name="fname"><br>
+                <label>Last name: </label>
+                <input type="text" id="" name="lname"><br>
+                <label>Gender:</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label>Female</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label>Male</label> <br>
+                <label>Skills: </label>
+                <input type="checkbox" id="java" name="skills" value="java">
+                <label for="java">Java</label>
+                <input type="checkbox" id="java" name="skills" value="php">
+                <label for="php">PHP</label>
+                <input type="checkbox" id="java" name="skills" value="python">
+                <label for="python">Python</label><br>
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="usa">United States</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="australia">Australia</option>
+                </select><br>
+                <label for="about">Tell me about yourself:</label><br>
+                <textarea rows="10" cols="60"></textarea><br>
+                <label for="selfie">Upload your picture:</label>
+                <input type="file"><br>
+                <label for="bday">Birthday:</label>
+                <input type="date"><br><br>
+                <label for="bday">Favorite Color:</label>
+                <input type="color"><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+            
+        </form>
+    </body>
+</html>
