@@ -1,0 +1,144 @@
+body, h1, h2, h3{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    top:0;
+    left: 0;
+    position:fixed;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+
+}
+
+header h1{
+    border: 3px solid white;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner .welcome{
+    position: absolute;
+    top: 300px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 60px;
+    line-height: 90px;
+}
+
+.banner h2{
+    font-size: 65px;
+}
+
+.banner h2 span{
+    font-size: 1.4em;
+}
+
+.banner img{
+    width: 100%;
+    max-width: 2000px;
+}
+
+nav{
+    background-color: #CDF563;
+    padding: 20px;
+    position: sticky;
+    top: 70px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li{
+    width: 25%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li a.join{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+main{
+    width: 1200px;
+    max-width: 100%;
+    margin: 80px auto;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+article h2{
+    background-color: black;
+    color: #CDF563;
+    padding: 30px;
+    font-size: 1.5em;
+}
+
+article p{
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+
+.images li img{
+   max-width: 100%;
+}
+
+.join{
+    background-color: #f3f3f3;
+    color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+.join h3{
+    font-size: 40px;
+}
+
+.join form input{
+    padding: 10px;
+    border: #CDF563;
+    width: 250px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
